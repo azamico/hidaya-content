@@ -1,0 +1,1453 @@
+{
+  "packs": [
+    {
+      "group": "cities",
+      "kind": "cities",
+      "file": "cities.sqlite",
+      "bundled": true,
+      "counts": {
+        "cities": 34215,
+        "countries": 252,
+        "with_arabic_names": 12378
+      },
+      "sources": [
+        {
+          "file": "geonames/cities15000.zip",
+          "sha256": "f274b5e5f2cff6211cb10cc5b348254a6e00dde9449244d18c0f542beb7581e5"
+        },
+        {
+          "file": "geonames/countryInfo.txt",
+          "sha256": "79f8f59ea01cbb40438bf1856dd6c2ff201f03f8fc72d0530b2646aaf603ef04"
+        },
+        {
+          "file": "geonames/admin1CodesASCII.txt",
+          "sha256": "2e4867f5397acb056ea26377601b57af37cb4c81399770225018e9e439e91ad3"
+        }
+      ],
+      "bytes": 7581696,
+      "sha256": "ce384b4fc388ba362f5a87f6066aea5ce0870fc79377d4aedfdceca1cc142855"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "daily",
+      "file": "daily-hadith.json",
+      "bundled": true,
+      "counts": {
+        "items": 618,
+        "reviewed": 0
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/en.zip",
+          "sha256": "d428fb67eabbce2fd9ad2dbe8f45d55241ba26441aa06d3d716220ca30bb0a2b"
+        },
+        {
+          "file": "hadeethenc/ar.zip",
+          "sha256": "1d5a2b5e89c07903550883af37a29f720e291eb8ca1ab28121bb0e7437fb6c70"
+        }
+      ],
+      "bytes": 37015,
+      "sha256": "e54b6598d4cc433d9131412844bb756d4c08f0983173fc2b9bd763cd47ffad11"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "ar",
+      "file": "hadeethenc-ar.sqlite",
+      "version": "2026-10-14T13:50:10",
+      "bundled": true,
+      "counts": {
+        "hadith": 3582,
+        "categories": 493
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/ar.zip",
+          "sha256": "1d5a2b5e89c07903550883af37a29f720e291eb8ca1ab28121bb0e7437fb6c70"
+        }
+      ],
+      "bytes": 13025280,
+      "sha256": "8758a02e6c74450607542d2f10d5a7d3e344bbe70b223d5f6c0ca4a3612b0a06"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "az",
+      "file": "hadeethenc-az.sqlite",
+      "version": "2026-06-02T19:01:28",
+      "bundled": false,
+      "counts": {
+        "hadith": 475,
+        "categories": 244
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/az.zip",
+          "sha256": "c7649858b2967a70b40fde3176b731488a22977e911c62efb0fb0292dc6ef877"
+        }
+      ],
+      "bytes": 1744896,
+      "sha256": "2c4d30416c29f84412ff2baf47a30e8badcb291d9f1fed7dc4a347114ad104e3"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "bn",
+      "file": "hadeethenc-bn.sqlite",
+      "version": "2026-11-13T00:36:14",
+      "bundled": false,
+      "counts": {
+        "hadith": 1925,
+        "categories": 414
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/bn.zip",
+          "sha256": "dbb67b88e671aa4f16916707b60538a1a42b1f7adc5d3b5f2c49e545aad4ba5f"
+        }
+      ],
+      "bytes": 12771328,
+      "sha256": "5f4ecf1106b0e2107eda5e285d3c3d30a760492059ef02562fc5a72b9405f299"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "bs",
+      "file": "hadeethenc-bs.sqlite",
+      "version": "2026-10-02T00:35:02",
+      "bundled": false,
+      "counts": {
+        "hadith": 2326,
+        "categories": 452
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/bs.zip",
+          "sha256": "c9c01dd448b801c6afbffc5737b1fe3f50cfb1e1b858ea60f23b8af88172809e"
+        }
+      ],
+      "bytes": 6078464,
+      "sha256": "865eb0ce2a6d00bb7e92f42c1bf3f31776eed62bd58d50ccc6ec46414ae6b017"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "de",
+      "file": "hadeethenc-de.sqlite",
+      "version": "2026-09-25T00:34:32",
+      "bundled": false,
+      "counts": {
+        "hadith": 622,
+        "categories": 277
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/de.zip",
+          "sha256": "d87a08f8ee8215e1720a26caed6a7b28dd3a17dc829e381878349de560b936e8"
+        }
+      ],
+      "bytes": 2199552,
+      "sha256": "03ba0bcf6496980166a022bfd9fb6436d88244aa86554b719f273206c4a642d6"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "en",
+      "file": "hadeethenc-en.sqlite",
+      "version": "2026-06-02T17:54:32",
+      "bundled": true,
+      "counts": {
+        "hadith": 2328,
+        "categories": 452
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/en.zip",
+          "sha256": "d428fb67eabbce2fd9ad2dbe8f45d55241ba26441aa06d3d716220ca30bb0a2b"
+        }
+      ],
+      "bytes": 6615040,
+      "sha256": "3e8ed545a17401fa85c9fd14a964510109306087d6184f0bae9ea413354de716"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "es",
+      "file": "hadeethenc-es.sqlite",
+      "version": "2026-06-26T00:32:34",
+      "bundled": false,
+      "counts": {
+        "hadith": 1955,
+        "categories": 404
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/es.zip",
+          "sha256": "c9935d4312181eab14bb3028c9c2a875c53acb2c5ca3d3f2827618c7d53a4aa6"
+        }
+      ],
+      "bytes": 5640192,
+      "sha256": "a7544ed81642119d950e3da7f5908a4c689a7dfd65fd71d04146e8c42dcadf2a"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "fa",
+      "file": "hadeethenc-fa.sqlite",
+      "version": "2026-07-31T00:37:42",
+      "bundled": false,
+      "counts": {
+        "hadith": 2275,
+        "categories": 447
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/fa.zip",
+          "sha256": "0f77f778d1cf6107d66410a3987b1aeb282c41404ef194a3b8f946c7f8f965c8"
+        }
+      ],
+      "bytes": 11247616,
+      "sha256": "1a4a2c6870e51df4a1102046037b16ebd9242dda62750095b264385a1e3ec8a4"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "fr",
+      "file": "hadeethenc-fr.sqlite",
+      "version": "2026-06-02T18:08:08",
+      "bundled": false,
+      "counts": {
+        "hadith": 1790,
+        "categories": 418
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/fr.zip",
+          "sha256": "baacb1f42e7278173d479dbee63009265f8224bbdc604009621a81f2cda3c39c"
+        }
+      ],
+      "bytes": 5640192,
+      "sha256": "aa543e9684aeafe613efe529b2050bba00584acabdea996ec87318ea3d84272c"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "ha",
+      "file": "hadeethenc-ha.sqlite",
+      "version": "2026-06-02T18:32:52",
+      "bundled": false,
+      "counts": {
+        "hadith": 1753,
+        "categories": 414
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/ha.zip",
+          "sha256": "3173026857a12409d77d763c3fa681a45ae8ed73fe95716cce06b6af3f4598df"
+        }
+      ],
+      "bytes": 3837952,
+      "sha256": "777aab910f8f5a2103cca1e54ab604386e060dfe5b04f88ddfc05035088b0d33"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "hi",
+      "file": "hadeethenc-hi.sqlite",
+      "version": "2026-08-28T00:35:50",
+      "bundled": false,
+      "counts": {
+        "hadith": 2314,
+        "categories": 449
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/hi.zip",
+          "sha256": "90b7c637482f275f505b8dba8ebae50e257553b954d5cad343a74669420d9043"
+        }
+      ],
+      "bytes": 11882496,
+      "sha256": "b8daf3b394119d92c56d566fbf18034ce7fd476b949bc494eef9968bba178973"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "id",
+      "file": "hadeethenc-id.sqlite",
+      "version": "2026-06-02T18:02:02",
+      "bundled": false,
+      "counts": {
+        "hadith": 2260,
+        "categories": 447
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/id.zip",
+          "sha256": "572fd656f4359c534a954f2c2c212525b88b5c5ab01fd86d75fed4681d4ca898"
+        }
+      ],
+      "bytes": 6610944,
+      "sha256": "4102e5a276293d0a552d05529ad791c28e90e8b5f6c2ca7e784d6d4c9db96e59"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "it",
+      "file": "hadeethenc-it.sqlite",
+      "version": "2026-06-02T18:58:10",
+      "bundled": false,
+      "counts": {
+        "hadith": 275,
+        "categories": 197
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/it.zip",
+          "sha256": "4641f2646ee1758558e312cdd4a58bc3eba4db7eabdc242dfecd37a340bb91cb"
+        }
+      ],
+      "bytes": 876544,
+      "sha256": "fcce02b2d8652f3ddc640f0eb4861fab46db1208e94a5c66a9212adef46aebe9"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "ja",
+      "file": "hadeethenc-ja.sqlite",
+      "version": "2026-06-02T18:41:10",
+      "bundled": false,
+      "counts": {
+        "hadith": 281,
+        "categories": 199
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/ja.zip",
+          "sha256": "b456458cfd36aca9848367f61e899a2c2b16c03b45ebd0ae3b4e064b4369802c"
+        }
+      ],
+      "bytes": 1515520,
+      "sha256": "cb857c236b9cb537176d59f6a56aafa91b999c3396e7775055cd5218c6198867"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "ml",
+      "file": "hadeethenc-ml.sqlite",
+      "version": "2026-06-02T18:35:28",
+      "bundled": false,
+      "counts": {
+        "hadith": 920,
+        "categories": 335
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/ml.zip",
+          "sha256": "901def5e0b9e1e2a7e93fa7d252aef1f8f67e2e37e6f4ce80a677c69eb47f136"
+        }
+      ],
+      "bytes": 8724480,
+      "sha256": "c451cf4494679d49d81259134f0ef0811c21c9b8b88a9766554bb1be4c75f455"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "ms",
+      "file": "hadeethenc-ms.sqlite",
+      "version": "2026-06-02T19:09:36",
+      "bundled": false,
+      "counts": {
+        "hadith": 147,
+        "categories": 133
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/ms.zip",
+          "sha256": "2fb8a317e5016077f17be1302d562ce88464fef463d2fe5483becacc627c65a4"
+        }
+      ],
+      "bytes": 544768,
+      "sha256": "7fdcbfb546abf78e6335baed3380f69082bb86987d5a13514ae1fd26c7652d9c"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "nl",
+      "file": "hadeethenc-nl.sqlite",
+      "version": "2026-06-02T18:46:20",
+      "bundled": false,
+      "counts": {
+        "hadith": 842,
+        "categories": 328
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/nl.zip",
+          "sha256": "ea5f954a76b4c53318756d274bec48692c516b5a87c0ce88e6cbac4e59972d9d"
+        }
+      ],
+      "bytes": 2789376,
+      "sha256": "2e88c6b8adf1bf93d18fb6b1348cdd6002877c7d3432443a20dcf058c177e4f1"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "ps",
+      "file": "hadeethenc-ps.sqlite",
+      "version": "2026-06-02T18:42:02",
+      "bundled": false,
+      "counts": {
+        "hadith": 795,
+        "categories": 313
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/ps.zip",
+          "sha256": "5d99c57609e34d18ea66ba641c8b0a9944e623d9adf977832857abcbccc5b339"
+        }
+      ],
+      "bytes": 4812800,
+      "sha256": "d0e9f549c5f851c240eece4e7d44000b47efba89a5ba761f571948151e338ae0"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "pt",
+      "file": "hadeethenc-pt.sqlite",
+      "version": "2026-06-02T18:34:24",
+      "bundled": false,
+      "counts": {
+        "hadith": 1382,
+        "categories": 395
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/pt.zip",
+          "sha256": "578f75554596c787cc19449e9f65d1385c80a3a7e01b9a5c556edf5256d0b87d"
+        }
+      ],
+      "bytes": 4165632,
+      "sha256": "f244e6258bdb5699481e034339fbe69e40f0284623d642a414f33728ab641e31"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "ru",
+      "file": "hadeethenc-ru.sqlite",
+      "version": "2026-06-26T00:37:44",
+      "bundled": false,
+      "counts": {
+        "hadith": 2249,
+        "categories": 446
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/ru.zip",
+          "sha256": "818f7a7b617c229199e465af921cbd4929fa5476819cffa95c330cd790b0c325"
+        }
+      ],
+      "bytes": 12738560,
+      "sha256": "0c1446b0fc706e1999721fa8491b66560b0ad8fae011f324f4c7a189b99cfecc"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "so",
+      "file": "hadeethenc-so.sqlite",
+      "version": "2026-07-03T00:42:20",
+      "bundled": false,
+      "counts": {
+        "hadith": 365,
+        "categories": 224
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/so.zip",
+          "sha256": "ef64bee4cf8e2e82b9bb6b8599b97e548db713a9fe527c2ed0eafcc42e3eef75"
+        }
+      ],
+      "bytes": 954368,
+      "sha256": "3cd1ed038911ed0a61c7d9419194d4e52d053f9b2327053a701f81ddfd969378"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "sq",
+      "file": "hadeethenc-sq.sqlite",
+      "version": "2026-07-31T00:39:06",
+      "bundled": false,
+      "counts": {
+        "hadith": 735,
+        "categories": 302
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/sq.zip",
+          "sha256": "b645468bf97b164379497fb9ade7cd10e7fa81cf2f2c58d99c9a310d1bb10870"
+        }
+      ],
+      "bytes": 2523136,
+      "sha256": "c167c5b0b2b00e2fe000f18524e7f70c127b999c9c9139dac1adb2e11b3758fa"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "sw",
+      "file": "hadeethenc-sw.sqlite",
+      "version": "2026-06-02T18:37:34",
+      "bundled": false,
+      "counts": {
+        "hadith": 919,
+        "categories": 338
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/sw.zip",
+          "sha256": "7fba5068edd7f296fdafc01eac981f8aac1555c2165321cde26eaaf310a55bf9"
+        }
+      ],
+      "bytes": 2682880,
+      "sha256": "d9bae89595b2bbbd3714453c94f494ec04b0125148599cc56391b0afd3d14e53"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "ta",
+      "file": "hadeethenc-ta.sqlite",
+      "version": "2026-06-19T00:46:44",
+      "bundled": false,
+      "counts": {
+        "hadith": 737,
+        "categories": 296
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/ta.zip",
+          "sha256": "37caccd5cb87375be361b460ebf0560c5d42671de5a4eae334a216b6dd9de753"
+        }
+      ],
+      "bytes": 6692864,
+      "sha256": "b2ce2668b9874939d1918aca8887b1971298b31ef8b821293d59dbddd0a1f104"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "th",
+      "file": "hadeethenc-th.sqlite",
+      "version": "2026-06-02T18:40:14",
+      "bundled": false,
+      "counts": {
+        "hadith": 846,
+        "categories": 328
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/th.zip",
+          "sha256": "89cec5357c3fd9efdc119c6fc72e0d775ec148414566ff2bb5bc08a4613c4ec8"
+        }
+      ],
+      "bytes": 8417280,
+      "sha256": "dbebad6ea44011098252c8aa636a94b3ed204ebd2220de4859b65b9b3d8b7b25"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "tr",
+      "file": "hadeethenc-tr.sqlite",
+      "version": "2026-09-25T00:33:30",
+      "bundled": false,
+      "counts": {
+        "hadith": 2150,
+        "categories": 433
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/tr.zip",
+          "sha256": "0856f245008a7de589c431803565c8873494f975340906949090e6a6f2f01f77"
+        }
+      ],
+      "bytes": 6836224,
+      "sha256": "4cbab88052de275ea01717b6cb1d5888ce1da7d61fb9e7ee67ea8ef213e96cd5"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "ur",
+      "file": "hadeethenc-ur.sqlite",
+      "version": "2026-06-02T17:57:02",
+      "bundled": false,
+      "counts": {
+        "hadith": 2220,
+        "categories": 445
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/ur.zip",
+          "sha256": "4163101bb24d191c1e94261fdc46a115a82af11f0cdeb3a85fd3ebe3a10457d9"
+        }
+      ],
+      "bytes": 10330112,
+      "sha256": "38dd61b0639c7a045a2499dea57dc19c47655e4a503147647f843280d1246932"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "uz",
+      "file": "hadeethenc-uz.sqlite",
+      "version": "2026-06-26T00:45:02",
+      "bundled": false,
+      "counts": {
+        "hadith": 420,
+        "categories": 230
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/uz.zip",
+          "sha256": "6535488b55573d5e0331664b8f994bc871b443fd7afcb007ad2f9fa5f131de59"
+        }
+      ],
+      "bytes": 2482176,
+      "sha256": "bac2d678c596e8dff708eb0850be807793d1bee10979ca644e64219a75fb8403"
+    },
+    {
+      "group": "hadeethenc",
+      "kind": "hadeethenc",
+      "lang": "zh",
+      "file": "hadeethenc-zh.sqlite",
+      "version": "2026-06-02T18:22:28",
+      "bundled": false,
+      "counts": {
+        "hadith": 2256,
+        "categories": 444
+      },
+      "sources": [
+        {
+          "file": "hadeethenc/zh.zip",
+          "sha256": "579b245f861923a828e924a2fb10b591ac988e3135b954c59056c0f5278ff2bb"
+        }
+      ],
+      "bytes": 5472256,
+      "sha256": "6ba35e742d7834565caa041da36fda3e51307800cc8f2ae75940e7df9677a0e6"
+    },
+    {
+      "group": "hadith",
+      "kind": "hadith",
+      "collection": "abudawud",
+      "lang": "ar",
+      "file": "hadith-abudawud-ar.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 5274,
+        "books": 43,
+        "empty": 2,
+        "graded": 5274
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ara-abudawud.json",
+          "sha256": "30dd3792ea65abe7fd0be8d568809d4eac04e38cbbd588b9c6055218fe43675f"
+        }
+      ],
+      "bytes": 12746752,
+      "sha256": "953b0db7264b577f9a7c02c98363ccd9fa7eedffaea53371798d546b18802e8b"
+    },
+    {
+      "group": "hadith",
+      "kind": "hadith",
+      "collection": "bukhari",
+      "lang": "ar",
+      "file": "hadith-bukhari-ar.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 7589,
+        "books": 97,
+        "empty": 9,
+        "graded": 0
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ara-bukhari.json",
+          "sha256": "f887d8724f75fb6e1d5d29342a173af5346ad9b933173c85e6e3cb570063ea33"
+        }
+      ],
+      "bytes": 19525632,
+      "sha256": "66d53bacd7048ad4aa0887cbfb291250fe1aaeaefb1c86321f47c65f142aeb62"
+    },
+    {
+      "group": "hadith",
+      "kind": "hadith",
+      "collection": "ibnmajah",
+      "lang": "ar",
+      "file": "hadith-ibnmajah-ar.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 4343,
+        "books": 38,
+        "empty": 5,
+        "graded": 4341
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ara-ibnmajah.json",
+          "sha256": "495fcccdea5f2d157794d2b1bd1eaa0e0a5ff5aeb6be2d7817de8f25e3b3349c"
+        }
+      ],
+      "bytes": 9314304,
+      "sha256": "b72635d725f249d2b1553638a0b8dd237b1936b317959978d6f4038dcdc49617"
+    },
+    {
+      "group": "hadith",
+      "kind": "hadith",
+      "collection": "muslim",
+      "lang": "ar",
+      "file": "hadith-muslim-ar.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 7563,
+        "books": 57,
+        "empty": 203,
+        "graded": 0
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ara-muslim.json",
+          "sha256": "2cb296f3455ff8a3da9f6a0ca3de75da675788b2fb446ad316df297838e48217"
+        }
+      ],
+      "bytes": 16969728,
+      "sha256": "0b073ece7411161254d64a55e3a7774444d0cdb952078be5bfabd9993385614e"
+    },
+    {
+      "group": "hadith",
+      "kind": "hadith",
+      "collection": "nasai",
+      "lang": "ar",
+      "file": "hadith-nasai-ar.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 5765,
+        "books": 51,
+        "empty": 86,
+        "graded": 5758
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ara-nasai.json",
+          "sha256": "18294d8da9ec9a735719f26709858ac30657c1122f6a39d179f128bfc59ecb80"
+        }
+      ],
+      "bytes": 12447744,
+      "sha256": "77faca5ea0e5b3d7a274131065dc6fc187800f00ba2f2ecf01996809bc57a058"
+    },
+    {
+      "group": "hadith",
+      "kind": "hadith",
+      "collection": "tirmidhi",
+      "lang": "ar",
+      "file": "hadith-tirmidhi-ar.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 3998,
+        "books": 49,
+        "empty": 74,
+        "graded": 3954
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ara-tirmidhi.json",
+          "sha256": "22b7ffbbca9beb5d4f108cc0389a3cd16917876b3ceb32993c46e1554afd871b"
+        }
+      ],
+      "bytes": 13479936,
+      "sha256": "a0c4f367f0e03ec251d1400378303ad2e1bd23d508d5e745b4a7be84f0279929"
+    },
+    {
+      "group": "quran",
+      "kind": "quran",
+      "file": "quran.sqlite",
+      "bundled": true,
+      "counts": {
+        "surahs": 114,
+        "ayat": 6236,
+        "pages": 604,
+        "juz": 30,
+        "hizb_quarters": 240,
+        "sajdas": 15,
+        "muqattaat_only": 20
+      },
+      "sources": [
+        {
+          "file": "tanzil/quran-uthmani.xml",
+          "sha256": "8c5aeae20363a98f6963720d29fce040ca8b56a8e75f8b564c257fce7f6d0417"
+        },
+        {
+          "file": "tanzil/quran-simple.xml",
+          "sha256": "099da765683fdfe2079e39a4950a1e8763cf44eac432a24a354cda89d1f67549"
+        },
+        {
+          "file": "tanzil/quran-simple-clean.xml",
+          "sha256": "bfcc15166521e3053b9c20c126ea28174433f127b364025e69585c960a5fc47f"
+        },
+        {
+          "file": "tanzil/quran-data.xml",
+          "sha256": "8867c1d88191472adec9db694b3cd9f135b1a2ef580574d32cf888dcb22c5c7a"
+        }
+      ],
+      "bytes": 4702208,
+      "sha256": "410ea197600782beecdc1ea25bb5d6fc02bb66fde963e1f75fcf810a8a5174af"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "az",
+      "key": "azeri_musayev",
+      "title": "Ali Khan Musayev",
+      "version": "1.0.4-xml.1",
+      "file": "tr-az-azeri_musayev.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 28
+      },
+      "sources": [
+        {
+          "file": "quranenc/azeri_musayev.xml",
+          "sha256": "5db7ec6e3755dc97b67037b1e7e2275419c766437d5aa46c7d5f5ff6c2cde5cc"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 1748992,
+      "sha256": "5bc07e4a9d9fa549e3de7d9279b2482dda55bc0cf241bcbc1561e914fc9448d6"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "bs",
+      "key": "bosnian_rwwad",
+      "title": "Rowwad Translation Centre",
+      "version": "2.0.4-xml.1",
+      "file": "tr-bs-bosnian_rwwad.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 70
+      },
+      "sources": [
+        {
+          "file": "quranenc/bosnian_rwwad.xml",
+          "sha256": "eb54be9815f506885bf6149c07e7bfdadf5f697e5de958c0793e2d45c1f0061c"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 1527808,
+      "sha256": "95a30a7b547b2d9d4f0678b3273b3a7ca14e441d84693e5ff5faa8191337d6d6"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "de",
+      "key": "german_bubenheim",
+      "title": "Frank Bubenheim",
+      "version": "1.1.5-xml.1",
+      "file": "tr-de-german_bubenheim.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 0
+      },
+      "sources": [
+        {
+          "file": "quranenc/german_bubenheim.xml",
+          "sha256": "ceca92f9f0c7f4f198a22d3c9cc89a5b880b489f5ff0167f0b51785701c6ebc0"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 1724416,
+      "sha256": "761ec74aa84614a10446938101acdb9b71597c63e8dcecc77acf36838624475d"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "en",
+      "key": "english_saheeh",
+      "title": "Noor International Center",
+      "version": "1.1.2-xml.1",
+      "file": "tr-en-english_saheeh.sqlite",
+      "bundled": true,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 1613
+      },
+      "sources": [
+        {
+          "file": "quranenc/english_saheeh.xml",
+          "sha256": "5b1b366710c9dcc969450157181aa755e2057bb35bb2f3224138f02571c09744"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 1830912,
+      "sha256": "12b1e9331995bd02716809294861294217de76348cb9f9af9381a569ab1fc9f9"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "es",
+      "key": "spanish_garcia",
+      "title": "Isa Garcia",
+      "version": "1.0.2-xml.1",
+      "file": "tr-es-spanish_garcia.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 1011
+      },
+      "sources": [
+        {
+          "file": "quranenc/spanish_garcia.xml",
+          "sha256": "ac9ffaff238b9c5abdc382e38912c8eadd031f5c8490c6c7c4a8e86f36041e47"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 1998848,
+      "sha256": "17ef429ffe296fecd5e151a64e9e87f351fb2f20797f1d678a45cbcab9f3c347"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "fa",
+      "key": "persian_ih",
+      "title": "Rowwad Translation Center",
+      "version": "1.1.3-xml.1",
+      "file": "tr-fa-persian_ih.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 0
+      },
+      "sources": [
+        {
+          "file": "quranenc/persian_ih.xml",
+          "sha256": "e77654ca916889e9a5e2f1ee7135f4ecda210ad0bd876d48fa5ac73f23a0500c"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 2510848,
+      "sha256": "47b3a09a4cc4d978cccbfd40335782d22dbc6a1951733fecb3d8acf9fb946279"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "fr",
+      "key": "french_montada",
+      "title": "Noor International Center",
+      "version": "1.0.0-xml.1",
+      "file": "tr-fr-french_montada.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 570
+      },
+      "sources": [
+        {
+          "file": "quranenc/french_montada.xml",
+          "sha256": "9047093c3f72055ff46f0ed15f337689fefb39580ddb194f720af341318e4289"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 1966080,
+      "sha256": "cf355c4bfea18c9dd3a66415d94a095f4cce77eb1b71e60b36808fc0de734af0"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "ha",
+      "key": "hausa_gummi",
+      "title": "Abu Bakr Jumi",
+      "version": "1.2.2-xml.1",
+      "file": "tr-ha-hausa_gummi.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 1076
+      },
+      "sources": [
+        {
+          "file": "quranenc/hausa_gummi.xml",
+          "sha256": "64de715ba1bf377662033b3baa3330a1954b0f4727f9e04e1c72c1cea25e850b"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 2019328,
+      "sha256": "6efd937ae3dcdbeb446bc7aefce835642b927f7dcf14ec0eccd3a2da50505637"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "hi",
+      "key": "hindi_omari",
+      "title": "Azizul Haq Al-Omari",
+      "version": "1.1.5-xml.1",
+      "file": "tr-hi-hindi_omari.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 2036
+      },
+      "sources": [
+        {
+          "file": "quranenc/hindi_omari.xml",
+          "sha256": "cc2314154f80a41d01a30eb055e99f4e36ce6c9e2e1b679d82b150662f51f493"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 4521984,
+      "sha256": "fed79757accfd42bb052f676edaa3fe828c6c52b4088e8417a211447028329e4"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "id",
+      "key": "indonesian_affairs",
+      "title": "Ministry of Religious Affairs",
+      "version": "1.0.1-xml.1",
+      "file": "tr-id-indonesian_affairs.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 825
+      },
+      "sources": [
+        {
+          "file": "quranenc/indonesian_affairs.xml",
+          "sha256": "45d0014236443e91af1338fe7b60f9e20741c6ff5b4ee82ead960d111f91071b"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 2019328,
+      "sha256": "bb5ff6c957be192a7e3f82849a13370914caf13a1549de2afef6dc854537cb07"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "ja",
+      "key": "japanese_saeedsato",
+      "title": "Saeed Sato",
+      "version": "1.0.13-xml.1",
+      "file": "tr-ja-japanese_saeedsato.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 3484
+      },
+      "sources": [
+        {
+          "file": "quranenc/japanese_saeedsato.xml",
+          "sha256": "5d11f74eafedd87b4c5fc33a1764517607bff6b8ee4de5b40318192e616d3064"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 5382144,
+      "sha256": "2f1c14021d6cc24fe87c18acb7068ea50fc23d331760123dd1e8e7d12778f25b"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "ml",
+      "key": "malayalam_kunhi",
+      "title": "Abdul Hamid Haidar and Kunhi Muhammad",
+      "version": "1.0.3-xml.1",
+      "file": "tr-ml-malayalam_kunhi.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 1305
+      },
+      "sources": [
+        {
+          "file": "quranenc/malayalam_kunhi.xml",
+          "sha256": "7fd56ecff8489fd9fed7cf2574976848d273ae0d64c8c8a0d0a2ddddf06f90a0"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 5931008,
+      "sha256": "bb2848d2de9d957c0c0f806db924a9c0e83de7d95746bd09f0307b440ddb191d"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "nl",
+      "key": "dutch_center",
+      "title": "Rowwad Translation Center",
+      "version": "2.0.10-xml.1",
+      "file": "tr-nl-dutch_center.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 184
+      },
+      "sources": [
+        {
+          "file": "quranenc/dutch_center.xml",
+          "sha256": "7b3ed248e58d32ce551ebdd6823a191b27fb254e37256ca66bbc0a568ae39b70"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 1863680,
+      "sha256": "9385a9aec3b2510f968cef51ed1fb10bdf4cc3821553213a9ff9086f8988b5fe"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "ps",
+      "key": "pashto_rwwad",
+      "title": "Rowwad Translation Center",
+      "version": "1.0.1-xml.1",
+      "file": "tr-ps-pashto_rwwad.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 29
+      },
+      "sources": [
+        {
+          "file": "quranenc/pashto_rwwad.xml",
+          "sha256": "d8222ef56ca3d84e8ca8e791833e79948839a94a86f697884698168e577ec739"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 2224128,
+      "sha256": "f3f1a5c2c78545de9c25a30854cf0b1e1706b97a1a253f6d73a5308f2345bd0a"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "pt",
+      "key": "portuguese_nasr",
+      "title": "Helmi Nasr",
+      "version": "1.4.1-xml.1",
+      "file": "tr-pt-portuguese_nasr.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 1972
+      },
+      "sources": [
+        {
+          "file": "quranenc/portuguese_nasr.xml",
+          "sha256": "57f1edffc62f67a2855fe14e9827f4a0ee042b427f3b70bfe40037d772708270"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 1908736,
+      "sha256": "cbf99be493c4bb12685d159f4e8cddc00872c6d3ee9cbd63d404f13db2674f68"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "so",
+      "key": "somali_yacob",
+      "title": "Abdullah Hasan Yaqoub",
+      "version": "1.0.27-xml.1",
+      "file": "tr-so-somali_yacob.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 1138
+      },
+      "sources": [
+        {
+          "file": "quranenc/somali_yacob.xml",
+          "sha256": "6921877114d0136a55e85623ca756d24d75cc267c51ea70e301defe1035ed8e1"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 1859584,
+      "sha256": "3a4499caab61de83dd1e260f5fbe71aec207ca3c454be2ff478d2f34ab304095"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "sq",
+      "key": "albanian_nahi",
+      "title": "Hassan Nahi",
+      "version": "1.1.0-xml.1",
+      "file": "tr-sq-albanian_nahi.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 405
+      },
+      "sources": [
+        {
+          "file": "quranenc/albanian_nahi.xml",
+          "sha256": "705e39705886df6b5af3bf2caf6978fc9af4a2ef424d708814b3935ae546c700"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 1818624,
+      "sha256": "724f47df933cfbb3157ce080c3a8abf0f32119fd0eb6c8a50f160c741082ebb8"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "sw",
+      "key": "swahili_barawani",
+      "title": "Ali Mohsin Al-Barwani",
+      "version": "1.0.1-xml.1",
+      "file": "tr-sw-swahili_barawani.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 5598
+      },
+      "sources": [
+        {
+          "file": "quranenc/swahili_barawani.xml",
+          "sha256": "d59ecae2748272d12f31956c129fb72e1fc10560ce397ff2fec683333a85bb19"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 3510272,
+      "sha256": "8fe1134e272b91d0be2335d70253a98ff3091af424983b52974c2579ad361b36"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "ta",
+      "key": "tamil_omar",
+      "title": "Omar Sharif",
+      "version": "1.0.4-xml.1",
+      "file": "tr-ta-tamil_omar.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 13
+      },
+      "sources": [
+        {
+          "file": "quranenc/tamil_omar.xml",
+          "sha256": "2f4f4257caacce37b14f9db5b8625cdaed4405167ca172d91f797f93b60f3dfc"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 5062656,
+      "sha256": "dccc8a237d0a19484574975d66046c29d7da365af41de386e5716dac968feb8e"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "th",
+      "key": "thai_rwwad",
+      "title": "Rowwad Translation Center",
+      "version": "1.0.1-xml.1",
+      "file": "tr-th-thai_rwwad.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 29
+      },
+      "sources": [
+        {
+          "file": "quranenc/thai_rwwad.xml",
+          "sha256": "e5d2ea10be86b81d7d7377da394c8bd31c01e4ecea02325bca63680d2acd627c"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 6311936,
+      "sha256": "1ba5c6d5bd52c28bd50705fbed3ade8217d8bc192c8150d524e5384b13d5aab5"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "tr",
+      "key": "turkish_rwwad",
+      "title": "Rowwad Translation Center",
+      "version": "1.0.4-xml.1",
+      "file": "tr-tr-turkish_rwwad.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 29
+      },
+      "sources": [
+        {
+          "file": "quranenc/turkish_rwwad.xml",
+          "sha256": "4ed11226ca9a66e9a8f5242dd1a15e6cbb9edd3ff35d5c4e31815b6abd99ebe1"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 1634304,
+      "sha256": "0261e4275269b140b51a133303e9206806c6f678a393290c922b6e53b746cd3c"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "ur",
+      "key": "urdu_junagarhi",
+      "title": "Muhammad Junagarhi",
+      "version": "1.1.3-xml.1",
+      "file": "tr-ur-urdu_junagarhi.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 4813
+      },
+      "sources": [
+        {
+          "file": "quranenc/urdu_junagarhi.xml",
+          "sha256": "8e1b20411e25cdd915d767acf6afb5c415693b20f629680a02906d6ec822ee68"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 7974912,
+      "sha256": "b0e14329daaaf32f3a17e8487b6ae495061e4c9e0c5ebae476518df905312d5c"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "uz",
+      "key": "uzbek_rwwad",
+      "title": "Rowwad Translation Center",
+      "version": "1.0.4-xml.1",
+      "file": "tr-uz-uzbek_rwwad.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 0
+      },
+      "sources": [
+        {
+          "file": "quranenc/uzbek_rwwad.xml",
+          "sha256": "dd2d148d771efe43a8e1c57e323673335326932989d972b78c1f0f25a0e7046a"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 2265088,
+      "sha256": "2129df83b83eaf3e3aa4815934789fcaafb0e22aa3df18cb6c9f8d53699492c0"
+    },
+    {
+      "group": "translations",
+      "kind": "translation",
+      "lang": "zh",
+      "key": "chinese_makin",
+      "title": "Muhammad Makeen",
+      "version": "1.0.2-xml.1",
+      "file": "tr-zh-chinese_makin.sqlite",
+      "bundled": false,
+      "counts": {
+        "ayat": 6236,
+        "empty": 0,
+        "footnoted": 0
+      },
+      "sources": [
+        {
+          "file": "quranenc/chinese_makin.xml",
+          "sha256": "3cd01991135e3bb663bed873b51b18325cec4dc604accec01f2d2a210ab644a8"
+        },
+        {
+          "file": "quranenc/translations-list.json",
+          "sha256": "756135537aa77b56141efa32a35e52f737fae6db59be40ca5f4558496ec56ab0"
+        }
+      ],
+      "bytes": 2465792,
+      "sha256": "3c61f16e731b5195c72dad422010c708ecf959e0b47181376c639bc2c5578168"
+    }
+  ],
+  "schema": 1,
+  "contentVersion": "2026.11.1",
+  "baseUrl": "https://raw.githubusercontent.com/azamico/hidaya-content/2026.11.1/packs",
+  "sqlite": "3.51.2",
+  "dailyHadithCandidates": 618
+}
