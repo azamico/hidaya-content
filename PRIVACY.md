@@ -23,6 +23,9 @@ app stays on your phone.
 
 - **Content packs**: Quran translations and hadith collections you choose to download come from a public file host
   (GitHub). The request contains only the file name, like any web download; nothing about you is sent.
+- **Gold, silver and exchange rates**: when you open the zakat calculator, it downloads one small public file with the
+  day's prices from the same file host (GitHub). Nothing about you or your amounts is sent; the calculation happens on
+  your phone.
 - **Recitation audio** is streamed from EveryAyah (everyayah.com) when you press play. Their server sees an ordinary
   request for the audio file.
 

@@ -1,0 +1,28 @@
+name: Zakat rates
+
+# Once a day: gold and silver prices and exchange rates for the Hidaya zakat calculator (rates/zakat-rates.json).
+# A failed run keeps yesterday's file; the app shows the date of the prices it uses.
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24.14.0"
+      - run: node scripts/zakat-rates.mjs
+      - name: Commit if changed
+        run: |
+          git add rates/zakat-rates.json
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git -c user.name="hidaya-rates" -c user.email="noreply@users.noreply.github.com" commit -m "Zakat rates $(date -u +%F)"
+          git push
