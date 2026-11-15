@@ -652,6 +652,146 @@
       "sha256": "953b0db7264b577f9a7c02c98363ccd9fa7eedffaea53371798d546b18802e8b"
     },
     {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "abudawud",
+      "lang": "bn",
+      "file": "hadith-abudawud-bn.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 5270,
+        "of": 5274
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ben-abudawud.json",
+          "sha256": "4dedfec0135b153cbc2a029b3419ea3f4f52a4c73266e161e660c0fc983ee31d"
+        }
+      ],
+      "bytes": 9252864,
+      "sha256": "905ddea90b3cb6366fdb627f3fbed0e549fb32fdd2822aa52ef471ccb1f0160d"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "abudawud",
+      "lang": "en",
+      "file": "hadith-abudawud-en.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 5272,
+        "of": 5274
+      },
+      "sources": [
+        {
+          "file": "hadith-api/eng-abudawud.json",
+          "sha256": "81f711c6240f517b3fce6f97ecb019c1831775297e25f1797e5785c11f61c6d8"
+        }
+      ],
+      "bytes": 3629056,
+      "sha256": "7e07d85a89aafc6f404c0f197b98fab93203cd0691ad23cdce9db60c95a583e2"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "abudawud",
+      "lang": "fr",
+      "file": "hadith-abudawud-fr.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 5274,
+        "of": 5274
+      },
+      "sources": [
+        {
+          "file": "hadith-api/fra-abudawud.json",
+          "sha256": "018cd22f3f4028117e594d88f1561e7d1ab035441c6fa5d96a6f87ef363e3aed"
+        }
+      ],
+      "bytes": 4079616,
+      "sha256": "466295f3dfbad2a46504295f9f1b2f3b064639937afc66c1dd3fcc14403e066f"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "abudawud",
+      "lang": "id",
+      "file": "hadith-abudawud-id.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 4406,
+        "of": 5274
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ind-abudawud.json",
+          "sha256": "b00cc9b74b012f3da67c7f3fe8275b61cd223707f9dba7ff68cab38d0b89a69f"
+        }
+      ],
+      "bytes": 5431296,
+      "sha256": "602aedc8b2d76557c79bba8dd78e64a3a8c1768a800ef2033a3100b66c517cb9"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "abudawud",
+      "lang": "ru",
+      "file": "hadith-abudawud-ru.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 4602,
+        "of": 5274
+      },
+      "sources": [
+        {
+          "file": "hadith-api/rus-abudawud.json",
+          "sha256": "a33302fd86325907d93fd862bdaa773dfbac43766e3380f491ce2445a5622ea3"
+        }
+      ],
+      "bytes": 5210112,
+      "sha256": "9c5e31bcbe54f7f36e0b37736d91599c5af958a8b658c4410dc2ca67b281263d"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "abudawud",
+      "lang": "tr",
+      "file": "hadith-abudawud-tr.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 5266,
+        "of": 5274
+      },
+      "sources": [
+        {
+          "file": "hadith-api/tur-abudawud.json",
+          "sha256": "bc634f594a5b53edb513e1d242195fc53f391547a3bf8c74f17165c3bd986bfc"
+        }
+      ],
+      "bytes": 4689920,
+      "sha256": "c876d076c5692948259377224cd45f5d5f0ecb7f127a275c7c0afd686ff3334c"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "abudawud",
+      "lang": "ur",
+      "file": "hadith-abudawud-ur.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 5273,
+        "of": 5274
+      },
+      "sources": [
+        {
+          "file": "hadith-api/urd-abudawud.json",
+          "sha256": "da1923ddaf1a2b81f81cc500abf536ff3b061a754fed528400344221d859da47"
+        }
+      ],
+      "bytes": 6062080,
+      "sha256": "1bfed9635f194cab38d8bb6ed246d600d71eb4c26608ed76a986fed0bdcbec0d"
+    },
+    {
       "group": "hadith",
       "kind": "hadith",
       "collection": "bukhari",
@@ -672,6 +812,166 @@
       ],
       "bytes": 19525632,
       "sha256": "66d53bacd7048ad4aa0887cbfb291250fe1aaeaefb1c86321f47c65f142aeb62"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "bukhari",
+      "lang": "bn",
+      "file": "hadith-bukhari-bn.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 7529,
+        "of": 7589
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ben-bukhari.json",
+          "sha256": "2886f6ec0af0833a7529ff63c608e035e61045b81788c08d2d23755f2df553ef"
+        }
+      ],
+      "bytes": 20992000,
+      "sha256": "7480b6fc1d396b8cbe5d70b943979dbc9e187d7aea1a3de60cd25b2d9996de26"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "bukhari",
+      "lang": "en",
+      "file": "hadith-bukhari-en.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 7580,
+        "of": 7589
+      },
+      "sources": [
+        {
+          "file": "hadith-api/eng-bukhari.json",
+          "sha256": "60f8dfcf2cb8bcd2c8e281be68d912ee153e0fc4d02ad317d33c532d3814a04f"
+        }
+      ],
+      "bytes": 6721536,
+      "sha256": "25be03d18334492248c253fd1c35e9d0208b5f9502252d2a707478b848c9aa1d"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "bukhari",
+      "lang": "fr",
+      "file": "hadith-bukhari-fr.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 7589,
+        "of": 7589
+      },
+      "sources": [
+        {
+          "file": "hadith-api/fra-bukhari.json",
+          "sha256": "d3480e7e66967f1939748741b0bb81e4004998967c18c99e00f0cf969147ebbf"
+        }
+      ],
+      "bytes": 7335936,
+      "sha256": "5c0da189798f21202d6b97cdea08938314f8fe0375ced5e6576b0eefc3b3078f"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "bukhari",
+      "lang": "id",
+      "file": "hadith-bukhari-id.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 6858,
+        "of": 7589
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ind-bukhari.json",
+          "sha256": "2222688acca11b122916e302c4a409cfd22b9d4163b0641ac004c88fbc3c2661"
+        }
+      ],
+      "bytes": 9068544,
+      "sha256": "62788d74017de5e7e13e4dbbc297fb21bc51c9e962992825de4f8f51a6b0bc6f"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "bukhari",
+      "lang": "ru",
+      "file": "hadith-bukhari-ru.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 7501,
+        "of": 7589
+      },
+      "sources": [
+        {
+          "file": "hadith-api/rus-bukhari.json",
+          "sha256": "5675e08bb521e37769344a3cdb2822423b8c442c353c8d42094efe681c276978"
+        }
+      ],
+      "bytes": 10870784,
+      "sha256": "7b3379a2c66f99784cc2319a162bf3516a3656a60ad2cad9515e24dd32041042"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "bukhari",
+      "lang": "ta",
+      "file": "hadith-bukhari-ta.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 7263,
+        "of": 7589
+      },
+      "sources": [
+        {
+          "file": "hadith-api/tam-bukhari.json",
+          "sha256": "f87a63c8627652373f5d39166da862c44401017ac271060d657cf5ba8ea642c4"
+        }
+      ],
+      "bytes": 22454272,
+      "sha256": "5658246b1b48916ca00c53897f94dddc56c392088947e1569f480ad9e57f8dba"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "bukhari",
+      "lang": "tr",
+      "file": "hadith-bukhari-tr.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 7521,
+        "of": 7589
+      },
+      "sources": [
+        {
+          "file": "hadith-api/tur-bukhari.json",
+          "sha256": "67ae849dda0e077169fa1f8bbdb407fcb1be680ab13cd9717b2aac0bb818fe48"
+        }
+      ],
+      "bytes": 15458304,
+      "sha256": "1e9cf3a825ff1acbd21e47b61dfd9e5b7970c73b8f657f3dd21e13fc279e48c3"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "bukhari",
+      "lang": "ur",
+      "file": "hadith-bukhari-ur.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 7019,
+        "of": 7589
+      },
+      "sources": [
+        {
+          "file": "hadith-api/urd-bukhari.json",
+          "sha256": "e9edbb3119ce1fc8a7422132c263ee76ddf4de3d448152de5868e2ce72d2e449"
+        }
+      ],
+      "bytes": 13623296,
+      "sha256": "83822b158df29dd9030c9b36e2d8e3a575207c21a419966f4690e3c1fac4de56"
     },
     {
       "group": "hadith",
@@ -696,6 +996,126 @@
       "sha256": "b72635d725f249d2b1553638a0b8dd237b1936b317959978d6f4038dcdc49617"
     },
     {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "ibnmajah",
+      "lang": "bn",
+      "file": "hadith-ibnmajah-bn.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 4336,
+        "of": 4343
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ben-ibnmajah.json",
+          "sha256": "6f613e145084705f57c11586cf2e8eb399775fdf503e0d1ae017235f873d63ef"
+        }
+      ],
+      "bytes": 5914624,
+      "sha256": "dcfdb894e9cce0cff38e27ca5cc3fceb2ba29a2614a949ae293c15c11cfd9a43"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "ibnmajah",
+      "lang": "en",
+      "file": "hadith-ibnmajah-en.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 4340,
+        "of": 4343
+      },
+      "sources": [
+        {
+          "file": "hadith-api/eng-ibnmajah.json",
+          "sha256": "c6966c9a02460817fec348945407b8407fcb9f0b0425022ce625792d0c22078b"
+        }
+      ],
+      "bytes": 2490368,
+      "sha256": "cf0268b49da4b3c955b2646b62713aee117cca10ae2badff873eeefad73b64c1"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "ibnmajah",
+      "lang": "fr",
+      "file": "hadith-ibnmajah-fr.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 4340,
+        "of": 4343
+      },
+      "sources": [
+        {
+          "file": "hadith-api/fra-ibnmajah.json",
+          "sha256": "8f26086af60da1886e6f61cfede259aa9574f6d10edc1cf8ae8ca4cb7c16ec4b"
+        }
+      ],
+      "bytes": 2572288,
+      "sha256": "d3e8856c97b74ebd436e247001476d837966cb2d8ab27c227b9d2412410e9b0f"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "ibnmajah",
+      "lang": "id",
+      "file": "hadith-ibnmajah-id.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 4269,
+        "of": 4343
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ind-ibnmajah.json",
+          "sha256": "9fa89db8865c4bd208db66d5f78ca220c797978ac54ab6a8b67eb8a6f96540f8"
+        }
+      ],
+      "bytes": 3940352,
+      "sha256": "9ce6b26bc86f17fa65a4179d116c588d46b142cbb558db769f4b0c3009876b1a"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "ibnmajah",
+      "lang": "tr",
+      "file": "hadith-ibnmajah-tr.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 4319,
+        "of": 4343
+      },
+      "sources": [
+        {
+          "file": "hadith-api/tur-ibnmajah.json",
+          "sha256": "0662de2f05a6c460e52b908064f495184de022d4168de6ff20d618945228918f"
+        }
+      ],
+      "bytes": 5636096,
+      "sha256": "030bc71518c395e32ece06ce5f002423ca550e0caa618f04a118e1f8fd92ebb0"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "ibnmajah",
+      "lang": "ur",
+      "file": "hadith-ibnmajah-ur.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 4329,
+        "of": 4343
+      },
+      "sources": [
+        {
+          "file": "hadith-api/urd-ibnmajah.json",
+          "sha256": "b032e5d7a09a92b8eef44493ad4d81e22b5bcb42b45029f3f9c5df4e3aed9623"
+        }
+      ],
+      "bytes": 3969024,
+      "sha256": "d543e26126d5bb9cfb8e99e76946698b451e791687263fe74b005bd025935d5d"
+    },
+    {
       "group": "hadith",
       "kind": "hadith",
       "collection": "muslim",
@@ -716,6 +1136,166 @@
       ],
       "bytes": 16969728,
       "sha256": "0b073ece7411161254d64a55e3a7774444d0cdb952078be5bfabd9993385614e"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "muslim",
+      "lang": "bn",
+      "file": "hadith-muslim-bn.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 7360,
+        "of": 7563
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ben-muslim.json",
+          "sha256": "f24bf6d942fd96290abe37458214cb30f98b3f5f25109e388d3b04e5028d6ad0"
+        }
+      ],
+      "bytes": 15163392,
+      "sha256": "9bf019f52b1fce844374e4673190f3d661024ce24da65f7d3a529b99200667c0"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "muslim",
+      "lang": "en",
+      "file": "hadith-muslim-en.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 7360,
+        "of": 7563
+      },
+      "sources": [
+        {
+          "file": "hadith-api/eng-muslim.json",
+          "sha256": "b5a04a66206b2cfaab18e2439ed2efeb824c6e179627e36a883dc060c03d4960"
+        }
+      ],
+      "bytes": 5324800,
+      "sha256": "94179b283d575339d011ba30824e817bc719e87bc058fed14cd0d079c1dd2700"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "muslim",
+      "lang": "fr",
+      "file": "hadith-muslim-fr.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 7307,
+        "of": 7563
+      },
+      "sources": [
+        {
+          "file": "hadith-api/fra-muslim.json",
+          "sha256": "c690d5d25bdbe501e2461c6287bdc4f0aed017120e873b2c89e03505da055c3b"
+        }
+      ],
+      "bytes": 5398528,
+      "sha256": "a227adc57ef4bf245c4e3269da7c3f27eb2cee67d2e6eb9ff875485301eb77fe"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "muslim",
+      "lang": "id",
+      "file": "hadith-muslim-id.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 4927,
+        "of": 7563
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ind-muslim.json",
+          "sha256": "97a76412987c7f207d02bee4c36e752fa50a5e1e46ad6769892ed7c1491b9636"
+        }
+      ],
+      "bytes": 7716864,
+      "sha256": "68973e5dfce3f01bf759484a7683c41400106f3cd73c0b6d62af2d95ccdfcd90"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "muslim",
+      "lang": "ru",
+      "file": "hadith-muslim-ru.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 2719,
+        "of": 7563
+      },
+      "sources": [
+        {
+          "file": "hadith-api/rus-muslim.json",
+          "sha256": "e75fc92b30b340bd5da6676d728fb760a3b867de4393cdaecb5bafef9da7ec0a"
+        }
+      ],
+      "bytes": 3145728,
+      "sha256": "6f02c559f3f06fc9c786edb7ce654f840ac0c49d98808fec400fa716f44c0cfd"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "muslim",
+      "lang": "ta",
+      "file": "hadith-muslim-ta.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 2665,
+        "of": 7563
+      },
+      "sources": [
+        {
+          "file": "hadith-api/tam-muslim.json",
+          "sha256": "b3b6515182e38c6a31486e6e737cf8e2a5567d671a11d5a080b43e66fe8390f8"
+        }
+      ],
+      "bytes": 8896512,
+      "sha256": "d175a4e9bcd2c1623519136fccb2c7f41c2f6bf3af17662b484ff4c6a8b49993"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "muslim",
+      "lang": "tr",
+      "file": "hadith-muslim-tr.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 7380,
+        "of": 7563
+      },
+      "sources": [
+        {
+          "file": "hadith-api/tur-muslim.json",
+          "sha256": "8e86dc8293c9ba8f397b8a51c4a6a2229cbe7683ae51b87ab194e681543fb929"
+        }
+      ],
+      "bytes": 9691136,
+      "sha256": "28f5416e58743335a988a325d59bda721ec52a09399fb0136fd638ff9dc90526"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "muslim",
+      "lang": "ur",
+      "file": "hadith-muslim-ur.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 7458,
+        "of": 7563
+      },
+      "sources": [
+        {
+          "file": "hadith-api/urd-muslim.json",
+          "sha256": "f4df8f12a57e0d14b93829aae8885072f7f04b5ca2703f8fa90b99cd7624bdcf"
+        }
+      ],
+      "bytes": 10047488,
+      "sha256": "7889746eb2dc6379aaef4cf117fabf4bb168454216bc7bbc206958ff79c8737f"
     },
     {
       "group": "hadith",
@@ -740,6 +1320,126 @@
       "sha256": "77faca5ea0e5b3d7a274131065dc6fc187800f00ba2f2ecf01996809bc57a058"
     },
     {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "nasai",
+      "lang": "bn",
+      "file": "hadith-nasai-bn.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 5656,
+        "of": 5765
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ben-nasai.json",
+          "sha256": "97adbefc3f3f9a1286fdc1cb954927da75112858e36bc6b3752a3a39bba222e3"
+        }
+      ],
+      "bytes": 9035776,
+      "sha256": "2646137249b1c137e65d6ec8a7104a330f1e8ad08be2d7eb21eb6fc31dc1e7e4"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "nasai",
+      "lang": "en",
+      "file": "hadith-nasai-en.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 5679,
+        "of": 5765
+      },
+      "sources": [
+        {
+          "file": "hadith-api/eng-nasai.json",
+          "sha256": "07f020084ecd21e647e4efd5b63e2866ab83143d68b470993eec1556e4fe8502"
+        }
+      ],
+      "bytes": 3457024,
+      "sha256": "5e579b67251132a73903761acd008d59fca273e946ff091722f5b5ea2800d5f7"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "nasai",
+      "lang": "fr",
+      "file": "hadith-nasai-fr.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 5679,
+        "of": 5765
+      },
+      "sources": [
+        {
+          "file": "hadith-api/fra-nasai.json",
+          "sha256": "b347e607b7a835b2e9aebbf2d342cc1e5fdb33582625ba318ce8a053e797e7d1"
+        }
+      ],
+      "bytes": 3678208,
+      "sha256": "d1fdb076e3587af9b0177210944337f90543b95f2afc13d0b7bf09d9342d0f39"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "nasai",
+      "lang": "id",
+      "file": "hadith-nasai-id.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 5335,
+        "of": 5765
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ind-nasai.json",
+          "sha256": "24c6f23371de8bef3fa7670e8bb8aa271ca53922df35513f8f373ceaf7dc3963"
+        }
+      ],
+      "bytes": 5246976,
+      "sha256": "8cc7e1eb488a6639b62b573ef506f6febed6f2db3c9ecf23772a51a8c78dd2b8"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "nasai",
+      "lang": "tr",
+      "file": "hadith-nasai-tr.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 629,
+        "of": 5765
+      },
+      "sources": [
+        {
+          "file": "hadith-api/tur-nasai.json",
+          "sha256": "14601a92c217a0762be5ebfd245b7844e5e3eab15a65e9879d6d41ea16d931ec"
+        }
+      ],
+      "bytes": 516096,
+      "sha256": "9d6a89f19b41c73d8b0d103676b2369de103a268b680c78a5edb3fe404bdda96"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "nasai",
+      "lang": "ur",
+      "file": "hadith-nasai-ur.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 3874,
+        "of": 5765
+      },
+      "sources": [
+        {
+          "file": "hadith-api/urd-nasai.json",
+          "sha256": "29241f9f16f34d174640b21ea84d7180c95011cf129efecd246bb3b73429786f"
+        }
+      ],
+      "bytes": 4177920,
+      "sha256": "b2210e344c1aea44ecd3af4e093f6976d6c8e092c7fdd20aadd4055c6dd11950"
+    },
+    {
       "group": "hadith",
       "kind": "hadith",
       "collection": "tirmidhi",
@@ -760,6 +1460,106 @@
       ],
       "bytes": 13479936,
       "sha256": "a0c4f367f0e03ec251d1400378303ad2e1bd23d508d5e745b4a7be84f0279929"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "tirmidhi",
+      "lang": "bn",
+      "file": "hadith-tirmidhi-bn.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 3895,
+        "of": 3998
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ben-tirmidhi.json",
+          "sha256": "4a02895ef4db491c6cc27396007f0bb7779198d27895afa0992ba2931e2f0f19"
+        }
+      ],
+      "bytes": 10981376,
+      "sha256": "37a791d1b919b98bedd5289c1cac7654b216d3d0385762fcab13cea0accffe52"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "tirmidhi",
+      "lang": "en",
+      "file": "hadith-tirmidhi-en.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 3926,
+        "of": 3998
+      },
+      "sources": [
+        {
+          "file": "hadith-api/eng-tirmidhi.json",
+          "sha256": "cf16ae15f7f6f23faab1c348d3962b49ac96e0e25cac7930b3725773bb6887f3"
+        }
+      ],
+      "bytes": 2637824,
+      "sha256": "8ae9cb712a6d741c3e8ded3b64097141570c2a6d198e60f5c185d54c2e1a215e"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "tirmidhi",
+      "lang": "id",
+      "file": "hadith-tirmidhi-id.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 3540,
+        "of": 3998
+      },
+      "sources": [
+        {
+          "file": "hadith-api/ind-tirmidhi.json",
+          "sha256": "85ecdb090a40630cb9b7ed57b0d67f78d21479c331ea397a61a314ae78256ea8"
+        }
+      ],
+      "bytes": 5238784,
+      "sha256": "330d6d1241ede2958a75c5cd43dc14c074ae315272d73ff2e4d1a376ff9deac0"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "tirmidhi",
+      "lang": "tr",
+      "file": "hadith-tirmidhi-tr.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 3769,
+        "of": 3998
+      },
+      "sources": [
+        {
+          "file": "hadith-api/tur-tirmidhi.json",
+          "sha256": "a0cb4e0f1a00db2e1db2907f80f1436bc1777f5978a4532113db5e33c33bd751"
+        }
+      ],
+      "bytes": 4280320,
+      "sha256": "0655ee033bd99804f6e8e8f3f69029caa4f735ef9fd81dadd4aa79e61fc411c7"
+    },
+    {
+      "group": "hadith-tr",
+      "kind": "hadith-translation",
+      "collection": "tirmidhi",
+      "lang": "ur",
+      "file": "hadith-tirmidhi-ur.sqlite",
+      "bundled": false,
+      "counts": {
+        "hadith": 3931,
+        "of": 3998
+      },
+      "sources": [
+        {
+          "file": "hadith-api/urd-tirmidhi.json",
+          "sha256": "ddd6e3a8c53193252391a36ea1a7870eb3ce5356362cf39dc915cfd2508f4f24"
+        }
+      ],
+      "bytes": 6574080,
+      "sha256": "258fef45fdf042ce63a58efdf0f07930fb96aef13cda1b94f2feac6e9a96a1eb"
     },
     {
       "group": "quran",
@@ -795,6 +1595,26 @@
       ],
       "bytes": 4702208,
       "sha256": "410ea197600782beecdc1ea25bb5d6fc02bb66fde963e1f75fcf810a8a5174af"
+    },
+    {
+      "group": "lists",
+      "kind": "lists",
+      "file": "reading-lists.json",
+      "bundled": true,
+      "counts": {
+        "duaGroups": 11,
+        "duaRefs": 47,
+        "nawawi": 42,
+        "reviewed": 0
+      },
+      "sources": [
+        {
+          "file": "content/reading-lists.json",
+          "sha256": "f615f085ed077d5de671cf6fa9078b4ed46182a6fdce7f0732b1fa85ddcaf686"
+        }
+      ],
+      "bytes": 3314,
+      "sha256": "e7efb301b4bfeccf458aa614179687933c61b69961365a8bf3eeef80b6e8e434"
     },
     {
       "group": "translations",
@@ -1446,8 +2266,8 @@
     }
   ],
   "schema": 1,
-  "contentVersion": "2026.11.1",
-  "baseUrl": "https://raw.githubusercontent.com/azamico/hidaya-content/2026.11.1/packs",
+  "contentVersion": "2026.11.2",
+  "baseUrl": "https://raw.githubusercontent.com/azamico/hidaya-content/2026.11.2/packs",
   "sqlite": "3.51.2",
   "dailyHadithCandidates": 618
 }
