@@ -1,6 +1,28 @@
 {
   "packs": [
     {
+      "group": "adhkar",
+      "kind": "adhkar",
+      "file": "adhkar.sqlite",
+      "bundled": true,
+      "counts": {
+        "chapters": 132,
+        "items": 267
+      },
+      "sources": [
+        {
+          "file": "hisnmuslim/en/index.json",
+          "sha256": "50fa7c436f3a7afa7b2b18a7411523b446d132ea6ab326aac317543f3c683f9e"
+        },
+        {
+          "file": "hisnmuslim/ar/index.json",
+          "sha256": "d48599a7ede75e9299c063729af1ea153b46767306c512eac7a6fec5e4c4c797"
+        }
+      ],
+      "bytes": 286720,
+      "sha256": "d08795b67a78eeca85be7e9cf85752e2018d1880dfab33c12dcce13d2aab6cbd"
+    },
+    {
       "group": "cities",
       "kind": "cities",
       "file": "cities.sqlite",
@@ -649,7 +671,7 @@
         }
       ],
       "bytes": 12746752,
-      "sha256": "953b0db7264b577f9a7c02c98363ccd9fa7eedffaea53371798d546b18802e8b"
+      "sha256": "b767bcfd0fa0f372faa077d2e6f604fb24ff06f8c28543af6638d26bb32474f3"
     },
     {
       "group": "hadith-tr",
@@ -669,7 +691,7 @@
         }
       ],
       "bytes": 9252864,
-      "sha256": "905ddea90b3cb6366fdb627f3fbed0e549fb32fdd2822aa52ef471ccb1f0160d"
+      "sha256": "2f8be7e5d1033941968fbfad42b9b99402da54212960f8c0aaad90f13693a51c"
     },
     {
       "group": "hadith-tr",
@@ -689,7 +711,7 @@
         }
       ],
       "bytes": 3629056,
-      "sha256": "7e07d85a89aafc6f404c0f197b98fab93203cd0691ad23cdce9db60c95a583e2"
+      "sha256": "789a5a2502c079e61800dcd05b608d69225b1db3ded9afa3b447b39b77982f82"
     },
     {
       "group": "hadith-tr",
@@ -709,7 +731,7 @@
         }
       ],
       "bytes": 4079616,
-      "sha256": "466295f3dfbad2a46504295f9f1b2f3b064639937afc66c1dd3fcc14403e066f"
+      "sha256": "741ce608d2985b433884fbaed0dcfbe020cde95fd76feb149b964f3f24981024"
     },
     {
       "group": "hadith-tr",
@@ -729,7 +751,7 @@
         }
       ],
       "bytes": 5431296,
-      "sha256": "602aedc8b2d76557c79bba8dd78e64a3a8c1768a800ef2033a3100b66c517cb9"
+      "sha256": "e0837a853c982e78cab411b69f66af5bd63a1a4d197781d6c8651a44d39312a7"
     },
     {
       "group": "hadith-tr",
@@ -749,7 +771,7 @@
         }
       ],
       "bytes": 5210112,
-      "sha256": "9c5e31bcbe54f7f36e0b37736d91599c5af958a8b658c4410dc2ca67b281263d"
+      "sha256": "27094fe6608900bfc353bbf5ee346c446e2732668794cabe89ba65e4da23078c"
     },
     {
       "group": "hadith-tr",
@@ -769,7 +791,7 @@
         }
       ],
       "bytes": 4689920,
-      "sha256": "c876d076c5692948259377224cd45f5d5f0ecb7f127a275c7c0afd686ff3334c"
+      "sha256": "033afa5e9ea296c3a4f13897fc6447042079ec217ba0ab1fb801a161e284355c"
     },
     {
       "group": "hadith-tr",
@@ -789,7 +811,7 @@
         }
       ],
       "bytes": 6062080,
-      "sha256": "1bfed9635f194cab38d8bb6ed246d600d71eb4c26608ed76a986fed0bdcbec0d"
+      "sha256": "8b1b5647354d70b9d0d96733f9566b6b8046181c1d77a447f7dac3de31bf5d4f"
     },
     {
       "group": "hadith",
@@ -811,7 +833,7 @@
         }
       ],
       "bytes": 19525632,
-      "sha256": "66d53bacd7048ad4aa0887cbfb291250fe1aaeaefb1c86321f47c65f142aeb62"
+      "sha256": "f5e1f06b74ef11850422f5b4422a5517a16ddea21609b8b1258603da96790760"
     },
     {
       "group": "hadith-tr",
@@ -831,7 +853,7 @@
         }
       ],
       "bytes": 20992000,
-      "sha256": "7480b6fc1d396b8cbe5d70b943979dbc9e187d7aea1a3de60cd25b2d9996de26"
+      "sha256": "a20e9de51486f52702885fef307f2ebacbeb17e4d24001cb5f84173c1e93fab3"
     },
     {
       "group": "hadith-tr",
@@ -851,7 +873,7 @@
         }
       ],
       "bytes": 6721536,
-      "sha256": "25be03d18334492248c253fd1c35e9d0208b5f9502252d2a707478b848c9aa1d"
+      "sha256": "5a8cb4dbd12986a42fd43df5f6cfd2e658cecf94c3af9fd1e44c144694f62738"
     },
     {
       "group": "hadith-tr",
@@ -871,7 +893,7 @@
         }
       ],
       "bytes": 7335936,
-      "sha256": "5c0da189798f21202d6b97cdea08938314f8fe0375ced5e6576b0eefc3b3078f"
+      "sha256": "9390dde6ef1d1bf2a63a42620b90a6be070fd0f90f0a0214f04c812085bd29b0"
     },
     {
       "group": "hadith-tr",
@@ -891,7 +913,7 @@
         }
       ],
       "bytes": 9068544,
-      "sha256": "62788d74017de5e7e13e4dbbc297fb21bc51c9e962992825de4f8f51a6b0bc6f"
+      "sha256": "0584073552f1a3fb57a27b2565ffcea547a903002d21a64610edc26495e97a17"
     },
     {
       "group": "hadith-tr",
@@ -911,7 +933,7 @@
         }
       ],
       "bytes": 10870784,
-      "sha256": "7b3379a2c66f99784cc2319a162bf3516a3656a60ad2cad9515e24dd32041042"
+      "sha256": "fe051246dabfa35cb682a3059fb56dc1432be0e13bfca78bf5888051da81b3c0"
     },
     {
       "group": "hadith-tr",
@@ -931,7 +953,7 @@
         }
       ],
       "bytes": 22454272,
-      "sha256": "5658246b1b48916ca00c53897f94dddc56c392088947e1569f480ad9e57f8dba"
+      "sha256": "8ba910569146e2a7559fd93abff8723c44fc7034b6fd3f1109e572d010eb7097"
     },
     {
       "group": "hadith-tr",
@@ -951,7 +973,7 @@
         }
       ],
       "bytes": 15458304,
-      "sha256": "1e9cf3a825ff1acbd21e47b61dfd9e5b7970c73b8f657f3dd21e13fc279e48c3"
+      "sha256": "ce84542f039266c41791b7c14a177ecaae64f35ad143201df70d9ce263a9ee9f"
     },
     {
       "group": "hadith-tr",
@@ -971,7 +993,7 @@
         }
       ],
       "bytes": 13623296,
-      "sha256": "83822b158df29dd9030c9b36e2d8e3a575207c21a419966f4690e3c1fac4de56"
+      "sha256": "ffbe64b33949735d1f45aac55aa6c8cb6af28129c566db0b30e6f7d239bb5544"
     },
     {
       "group": "hadith",
@@ -993,7 +1015,7 @@
         }
       ],
       "bytes": 9314304,
-      "sha256": "b72635d725f249d2b1553638a0b8dd237b1936b317959978d6f4038dcdc49617"
+      "sha256": "07f474da640a6eff9c9863223a5e063aa68de231f2eb3e1292ba8b6f583c9b85"
     },
     {
       "group": "hadith-tr",
@@ -1013,7 +1035,7 @@
         }
       ],
       "bytes": 5914624,
-      "sha256": "dcfdb894e9cce0cff38e27ca5cc3fceb2ba29a2614a949ae293c15c11cfd9a43"
+      "sha256": "c62e2eeed2cca01eed8b669396e93b6d740f03edbee50322c712bb38c1b680fd"
     },
     {
       "group": "hadith-tr",
@@ -1033,7 +1055,7 @@
         }
       ],
       "bytes": 2490368,
-      "sha256": "cf0268b49da4b3c955b2646b62713aee117cca10ae2badff873eeefad73b64c1"
+      "sha256": "4bf77dcbf07d1b1e4bdf13141a22866d90abe4158f4721f5b98d7293568595d1"
     },
     {
       "group": "hadith-tr",
@@ -1053,7 +1075,7 @@
         }
       ],
       "bytes": 2572288,
-      "sha256": "d3e8856c97b74ebd436e247001476d837966cb2d8ab27c227b9d2412410e9b0f"
+      "sha256": "827aa978d4077cd557cfe43376b2a368490232ce65a063a02ea98502a2c9b62d"
     },
     {
       "group": "hadith-tr",
@@ -1073,7 +1095,7 @@
         }
       ],
       "bytes": 3940352,
-      "sha256": "9ce6b26bc86f17fa65a4179d116c588d46b142cbb558db769f4b0c3009876b1a"
+      "sha256": "c8c1225c1258d2e5d6d2a3ead35a776aa597d31db75f27babb9924044acd61f0"
     },
     {
       "group": "hadith-tr",
@@ -1093,7 +1115,7 @@
         }
       ],
       "bytes": 5636096,
-      "sha256": "030bc71518c395e32ece06ce5f002423ca550e0caa618f04a118e1f8fd92ebb0"
+      "sha256": "148e4db664d2e45c0608d9e89c86aa9ba12dd67e0bdd9974399ad774f10a02a4"
     },
     {
       "group": "hadith-tr",
@@ -1113,7 +1135,7 @@
         }
       ],
       "bytes": 3969024,
-      "sha256": "d543e26126d5bb9cfb8e99e76946698b451e791687263fe74b005bd025935d5d"
+      "sha256": "c02028b6944439796d00da06ab7b34bf0f3c92ee995b5450c54c37c9a7e48d9b"
     },
     {
       "group": "hadith",
@@ -1135,7 +1157,7 @@
         }
       ],
       "bytes": 16969728,
-      "sha256": "0b073ece7411161254d64a55e3a7774444d0cdb952078be5bfabd9993385614e"
+      "sha256": "06108046b29bd079c4323cd7ba87fe4e50c02659d183ab410735b9f07656b0e3"
     },
     {
       "group": "hadith-tr",
@@ -1155,7 +1177,7 @@
         }
       ],
       "bytes": 15163392,
-      "sha256": "9bf019f52b1fce844374e4673190f3d661024ce24da65f7d3a529b99200667c0"
+      "sha256": "a1ba132c9fbbfbd9912a42bfe2fb8daf7e6cfd00050815d1b22a5aa784781d4b"
     },
     {
       "group": "hadith-tr",
@@ -1175,7 +1197,7 @@
         }
       ],
       "bytes": 5324800,
-      "sha256": "94179b283d575339d011ba30824e817bc719e87bc058fed14cd0d079c1dd2700"
+      "sha256": "dc405c05f63a48e467a8d43a21b5c22c1a70eb0e008629333d9be4cb61f11bc5"
     },
     {
       "group": "hadith-tr",
@@ -1195,7 +1217,7 @@
         }
       ],
       "bytes": 5398528,
-      "sha256": "a227adc57ef4bf245c4e3269da7c3f27eb2cee67d2e6eb9ff875485301eb77fe"
+      "sha256": "e539752ab83b5d4b58dc58925d1baf887d8a9ab3eb4e7e04338a39054feb924b"
     },
     {
       "group": "hadith-tr",
@@ -1215,7 +1237,7 @@
         }
       ],
       "bytes": 7716864,
-      "sha256": "68973e5dfce3f01bf759484a7683c41400106f3cd73c0b6d62af2d95ccdfcd90"
+      "sha256": "0435bb0964276763ebb301defc19bc65e03c3900657992e34fe9a10ba3f2dd5f"
     },
     {
       "group": "hadith-tr",
@@ -1235,7 +1257,7 @@
         }
       ],
       "bytes": 3145728,
-      "sha256": "6f02c559f3f06fc9c786edb7ce654f840ac0c49d98808fec400fa716f44c0cfd"
+      "sha256": "384fc158e26ab7e18816262b9c8a4c8f599299c97aedd51ffae70a3a94730ddc"
     },
     {
       "group": "hadith-tr",
@@ -1255,7 +1277,7 @@
         }
       ],
       "bytes": 8896512,
-      "sha256": "d175a4e9bcd2c1623519136fccb2c7f41c2f6bf3af17662b484ff4c6a8b49993"
+      "sha256": "cb2b19bc506cfc3acb7ecb098d12f616e2b9f1f6c8c2d72d2c9a1f67539c55b6"
     },
     {
       "group": "hadith-tr",
@@ -1275,7 +1297,7 @@
         }
       ],
       "bytes": 9691136,
-      "sha256": "28f5416e58743335a988a325d59bda721ec52a09399fb0136fd638ff9dc90526"
+      "sha256": "09ac90ae55c39be695c7f12a98e108c617fb5d2f3895fbc6052f14a1f434b7cf"
     },
     {
       "group": "hadith-tr",
@@ -1295,7 +1317,7 @@
         }
       ],
       "bytes": 10047488,
-      "sha256": "7889746eb2dc6379aaef4cf117fabf4bb168454216bc7bbc206958ff79c8737f"
+      "sha256": "3df74eec6a876432d8d0677771e06966e0b46cc2f3517165984b57dc6edd6a14"
     },
     {
       "group": "hadith",
@@ -1317,7 +1339,7 @@
         }
       ],
       "bytes": 12447744,
-      "sha256": "77faca5ea0e5b3d7a274131065dc6fc187800f00ba2f2ecf01996809bc57a058"
+      "sha256": "fe42c622b0d9fd96b4b0d494b775a590a43729838079ea6710900bb27f8ccbbd"
     },
     {
       "group": "hadith-tr",
@@ -1337,7 +1359,7 @@
         }
       ],
       "bytes": 9035776,
-      "sha256": "2646137249b1c137e65d6ec8a7104a330f1e8ad08be2d7eb21eb6fc31dc1e7e4"
+      "sha256": "0d06ffd1e4586ebabf8f9ac1e21c0d5cea077cfedf539b5217efefa8f923f1d7"
     },
     {
       "group": "hadith-tr",
@@ -1357,7 +1379,7 @@
         }
       ],
       "bytes": 3457024,
-      "sha256": "5e579b67251132a73903761acd008d59fca273e946ff091722f5b5ea2800d5f7"
+      "sha256": "6e798eb8fb4ae8f26fd9e7d431e590d3d611f2ce9f1bd84d0e5382f90d530798"
     },
     {
       "group": "hadith-tr",
@@ -1377,7 +1399,7 @@
         }
       ],
       "bytes": 3678208,
-      "sha256": "d1fdb076e3587af9b0177210944337f90543b95f2afc13d0b7bf09d9342d0f39"
+      "sha256": "811f99f79dd783526a9e5272c5edcec05a03bf2302d66e71b75a3a8655db149a"
     },
     {
       "group": "hadith-tr",
@@ -1397,7 +1419,7 @@
         }
       ],
       "bytes": 5246976,
-      "sha256": "8cc7e1eb488a6639b62b573ef506f6febed6f2db3c9ecf23772a51a8c78dd2b8"
+      "sha256": "a89b1c28209aeee3c216c355c2235d7655d1e5bcfacd2a38ac4882cab84972f1"
     },
     {
       "group": "hadith-tr",
@@ -1417,7 +1439,7 @@
         }
       ],
       "bytes": 516096,
-      "sha256": "9d6a89f19b41c73d8b0d103676b2369de103a268b680c78a5edb3fe404bdda96"
+      "sha256": "572f01406015a8d64af7366f4843a45af208215f666c4453b1f88a4584b10830"
     },
     {
       "group": "hadith-tr",
@@ -1437,7 +1459,7 @@
         }
       ],
       "bytes": 4177920,
-      "sha256": "b2210e344c1aea44ecd3af4e093f6976d6c8e092c7fdd20aadd4055c6dd11950"
+      "sha256": "8a03c288a5673f932554e8c5b4c6ac324a752ded34c7a5e05746b89b8c2770ac"
     },
     {
       "group": "hadith",
@@ -1459,7 +1481,7 @@
         }
       ],
       "bytes": 13479936,
-      "sha256": "a0c4f367f0e03ec251d1400378303ad2e1bd23d508d5e745b4a7be84f0279929"
+      "sha256": "aa4506c29003ce9663ef84680d40e9406aacf66b3657bd2dbe050a5e8867bfa8"
     },
     {
       "group": "hadith-tr",
@@ -1479,7 +1501,7 @@
         }
       ],
       "bytes": 10981376,
-      "sha256": "37a791d1b919b98bedd5289c1cac7654b216d3d0385762fcab13cea0accffe52"
+      "sha256": "ddd46c0095e3220daafb659e920cdfd2a5fed5480582e44d8331140d5d9aa7c5"
     },
     {
       "group": "hadith-tr",
@@ -1499,7 +1521,7 @@
         }
       ],
       "bytes": 2637824,
-      "sha256": "8ae9cb712a6d741c3e8ded3b64097141570c2a6d198e60f5c185d54c2e1a215e"
+      "sha256": "5eb76a0154b8ae1318a691c3dfe46c3f8722481a2c9f1c1ae2dfe9d9a34c1364"
     },
     {
       "group": "hadith-tr",
@@ -1519,7 +1541,7 @@
         }
       ],
       "bytes": 5238784,
-      "sha256": "330d6d1241ede2958a75c5cd43dc14c074ae315272d73ff2e4d1a376ff9deac0"
+      "sha256": "045985d91fff82bb2a08fd35047df591271489cbf7e638266e34e2542f46859d"
     },
     {
       "group": "hadith-tr",
@@ -1539,7 +1561,7 @@
         }
       ],
       "bytes": 4280320,
-      "sha256": "0655ee033bd99804f6e8e8f3f69029caa4f735ef9fd81dadd4aa79e61fc411c7"
+      "sha256": "f758537cb4a7885519e45234d35e5f99aba0c5f29dc8764f15604bc5d4642e55"
     },
     {
       "group": "hadith-tr",
@@ -1559,7 +1581,7 @@
         }
       ],
       "bytes": 6574080,
-      "sha256": "258fef45fdf042ce63a58efdf0f07930fb96aef13cda1b94f2feac6e9a96a1eb"
+      "sha256": "523842a23d0f13b1e893066beeb44b7fd367131cb0842f884e2e8613a09a823c"
     },
     {
       "group": "quran",
@@ -1611,10 +1633,14 @@
         {
           "file": "content/reading-lists.json",
           "sha256": "f615f085ed077d5de671cf6fa9078b4ed46182a6fdce7f0732b1fa85ddcaf686"
+        },
+        {
+          "file": "content/asma-ul-husna.json",
+          "sha256": "dc2cfe3fe6f2d7509ba67c802b9713b674ae282a7c86d8bd03b2d78396dfb13a"
         }
       ],
-      "bytes": 3314,
-      "sha256": "e7efb301b4bfeccf458aa614179687933c61b69961365a8bf3eeef80b6e8e434"
+      "bytes": 12667,
+      "sha256": "0fb81568dc74c1cf1e18ec9cc7733faa0c23660ca425a574caf76f72d54dc173"
     },
     {
       "group": "translations",
@@ -2266,8 +2292,8 @@
     }
   ],
   "schema": 1,
-  "contentVersion": "2026.11.2",
-  "baseUrl": "https://raw.githubusercontent.com/azamico/hidaya-content/2026.11.2/packs",
+  "contentVersion": "2026.11.3",
+  "baseUrl": "https://raw.githubusercontent.com/azamico/hidaya-content/2026.11.3/packs",
   "sqlite": "3.51.2",
   "dailyHadithCandidates": 618
 }

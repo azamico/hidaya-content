@@ -56,14 +56,39 @@ Hidaya is a commercial app (free download, one-week trial, then subscription or 
 - **Curation:** only hadith attributed to the Six Books with a Sahih/Hasan grade are candidates (`content/review/daily-hadith-candidates.csv`). Azam reviews them; only approved ids go into `content/daily-hadith-allowlist.json`.
 - **Packs:** `hadeethenc-<lang>.sqlite`.
 
-## 4. The Six Books (Arabic): fawazahmed0/hadith-api
+## 4. The Six Books (Arabic and translations): fawazahmed0/hadith-api
 
-- **Source:** https://github.com/fawazahmed0/hadith-api, pinned to commit `df57907be35291c91ad6a6691180e22ca9920784` (Arabic editions `ara-<collection>`, served via jsDelivr).
+- **Source:** https://github.com/fawazahmed0/hadith-api, pinned to commit `df57907be35291c91ad6a6691180e22ca9920784` (Arabic editions `ara-<collection>` and translation editions `<eng|urd|ind|ben|tur|fra|rus|tam>-<collection>`, served via jsDelivr).
 - **Licence:** The Unlicense:
   > This is free and unencumbered software released into the public domain. … Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software … for any purpose, commercial or non-commercial, and by any means.
 - **Grades:** included per hadith with the grader's name (e.g. Al-Albani, Shuaib Al Arnaut, Zubair Ali Zai, Muhammad Muhyi Al-Din Abdul Hamid). Not all hadith have grades.
-- **Not used:** the repository's English and other translations. Their translators' rights (e.g. Muhsin Khan's Bukhari translation, published by Darussalam) are not covered by the Unlicense. Six Books translations will be added only with written permission from a rights holder.
-- **Packs:** `hadith-<collection>-ar.sqlite`.
+- **Translations:** English, Urdu, Indonesian, Bengali, Turkish, French, Russian and Tamil, wherever the repository has an edition (40 packs). The translators' rights (e.g. Muhsin Khan's Bukhari translation) are not covered by the Unlicense; **Azam has permission to use them** (DECISIONS #15, 15 Nov 2026). Each pack's attribution names the translator where the source gives one. Some editions are incomplete (e.g. Turkish an-Nasa'i); the app falls back to English for those hadith.
+- **Packs:** `hadith-<collection>-ar.sqlite` (Arabic, with grades) and `hadith-<collection>-<lang>.sqlite` (translations, matched to the Arabic by hadith number).
+
+## 4a. Quran recitation: EveryAyah
+
+- **Source:** verse-by-verse MP3s from https://everyayah.com (`data/<reciter>/<SSSAAA>.mp3`), streamed by the app; nothing is bundled or hosted by us.
+- **Reciters:** Mishary Rashid Alafasy (`Alafasy_128kbps`), Abdul Basit Abdus Samad (`Abdul_Basit_Murattal_192kbps`), Mahmoud Khalil Al-Husary (`Husary_128kbps`), Abdur-Rahman As-Sudais (`Abdurrahmaan_As-Sudais_192kbps`).
+- **Permission:** Azam has permission for these reciters (DECISIONS #15/#17); in-app credit is not required, so it is listed here only, not on the Sources screen (DECISIONS #20).
+
+## 4b. Adhkar: Hisn al-Muslim (hisnmuslim.com)
+
+- **Source:** *Hisn al-Muslim* (Fortress of the Muslim) by Sa'id ibn Ali ibn Wahf al-Qahtani, from the hisnmuslim.com API: `api/ar/husn_ar.json`, `api/en/husn_en.json` and `api/{ar,en}/{1..132}.json`, pinned by SHA-256 in `sources.lock.json`.
+- **Permission:** Azam has permission to use the Arabic text, transliteration and English translation (15 Nov 2026); in-app credit is not required, so it is listed here only, not on the Sources screen (DECISIONS #20).
+- **Use:** stored verbatim (only line endings normalised and surrounding spaces trimmed; `verify.mjs` checks every item against the source). The app adds a tap counter using each item's repeat count.
+- **Pack:** `adhkar.sqlite` (bundled).
+
+## 4d. Adhan recordings
+
+- **Voices:** Masjid al-Haram (Makkah), Sheikh Usaamah Akhdhar (Madinah), Mishary Rashid Alafasy (three recordings), Ahmad Al Nafees, Mansour Al-Zahrani, Hafiz Mustafa Özcan, Doha (Qatar) and Mohammed Gad, and a recording of the dua after the adhan. MP3s supplied by Azam on 15 Nov 2026 (`design/adhan-src/`).
+- **Permission:** Azam has permission for the adhan voices (DECISIONS #15/#22). Credited on the Sources screen.
+- **Use:** decoded with Windows Media Foundation (`design/tools/adhan-decode.ps1`), then `design/tools/adhan.mjs` trims leading and trailing silence, levels each to a -1 dBFS peak and writes a 29-second version (with a fade-out, for iPhone notifications) and the full recording into `design/audio/`, which both apps bundle. Nothing else is edited.
+
+## 4c. The 99 Names of Allah
+
+- **Arabic and transliteration:** the list narrated by at-Tirmidhi (3507), in its order, in the standard forms.
+- **English meanings:** short glosses drafted for Hidaya (DECISIONS #14), reviewed by Azam before release (`content/asma-ul-husna.json`, `reviewed`).
+- **Pack:** carried in `reading-lists.json`.
 
 ## 5. Cities: GeoNames
 
@@ -84,6 +109,25 @@ All bundled from `design/fonts/` (from github.com/google/fonts at commit `29b4ec
 | Inter | Interface | `OFL-Inter.txt` |
 | Noto Nastaliq Urdu | Urdu translation | `OFL-NotoNastaliqUrdu.txt` |
 
+## Where sources are credited in the app
+
+On **Settings → Sources and licences**, which shows the attribution text stored in each pack on the phone (`meta.attribution`, from `content/scripts/lib/notices.mjs`) plus the data, fonts and software below. The Ayah and Hadith screens show only the Quran or Six Books reference (DECISIONS #16).
+
+## 7. Magnetic declination: World Magnetic Model
+
+- **Use:** turning the compass's magnetic heading into true north for the Qibla. Android uses the system's `GeomagneticField`. On iOS, when the phone gives no true heading (no location permission), `ios/Core/Sources/Core/Qibla/Declination.swift` does the same calculation.
+- **Data:** WMM-2020 coefficients from NOAA/NGA (US government work, public domain).
+- **Code:** the iOS calculation is ported from Android's `android.hardware.GeomagneticField` (Android Open Source Project, Apache License 2.0). The Sources screen credits AOSP and shows the Apache 2.0 notice.
+
+## 8. Gold, silver and exchange rates (zakat calculator)
+
+- **Source:** [Frankfurter](https://frankfurter.dev) v2 blended daily rates (base USD, including XAU and XAG). Its licence page says the blended rates are Frankfurter's own calculation and free to use; no attribution is required, but the Sources screen credits it. Cross-checked against [fawazahmed0/exchange-api](https://github.com/fawazahmed0/exchange-api) (CC0-1.0), which is not republished.
+- **Use:** `scripts/zakat-rates.mjs` in hidaya-content writes `rates/zakat-rates.json` (gold and silver in US dollars per gram, units of each currency per US dollar) once a day; the app downloads it when the calculator opens (DECISIONS #21). Not used: LBMA prices (licensed), ExchangeRate-API open access (no redistribution), the free tiers of metal-price APIs (no commercial use).
+
+## 9. Moon phase
+
+- **Code:** `MoonPhase` in both cores uses the low-precision sun and moon positions from Jean Meeus, *Astronomical Algorithms*, in the form used by [SunCalc](https://github.com/mourner/suncalc) (Vladimir Agafonkin, BSD 2-Clause License). Credited on the Sources screen.
+
 ---
 
 ## Packs
@@ -93,6 +137,7 @@ Generated from the built packs by `node content/scripts/licenses.mjs`. Don't edi
 <!-- generated:packs:start -->
 | Pack | Content | Source and version | Size | Bundled |
 |---|---|---|---|---|
+| `adhkar.sqlite` | adhkar | hisnmuslim.com | 0.3 MB | yes |
 | `cities.sqlite` | Cities (population ≥ 15,000) | GeoNames snapshot 2026-11-14T03:44:34 | 7.2 MB | yes |
 | `daily-hadith.json` | Daily-hadith pool: 618 HadeethEnc ids, not yet reviewed | built from HadeethEnc packs + `daily-hadith-allowlist.json` | 0.0 MB | yes |
 | `hadeethenc-ar.sqlite` | Daily hadith (ar) | HadeethEnc, file dated 2026-10-14T13:50:10 | 12.4 MB | yes |
@@ -125,12 +170,53 @@ Generated from the built packs by `node content/scripts/licenses.mjs`. Don't edi
 | `hadeethenc-uz.sqlite` | Daily hadith (uz) | HadeethEnc, file dated 2026-06-26T00:45:02 | 2.4 MB | download |
 | `hadeethenc-zh.sqlite` | Daily hadith (zh) | HadeethEnc, file dated 2026-06-02T18:22:28 | 5.2 MB | download |
 | `hadith-abudawud-ar.sqlite` | Sunan Abi Dawud (Arabic, grades) | hadith-api @ df57907 | 12.2 MB | download |
+| `hadith-abudawud-bn.sqlite` | hadith-translation | fawazahmed0/hadith-api | 8.8 MB | download |
+| `hadith-abudawud-en.sqlite` | hadith-translation | fawazahmed0/hadith-api | 3.5 MB | download |
+| `hadith-abudawud-fr.sqlite` | hadith-translation | fawazahmed0/hadith-api | 3.9 MB | download |
+| `hadith-abudawud-id.sqlite` | hadith-translation | fawazahmed0/hadith-api | 5.2 MB | download |
+| `hadith-abudawud-ru.sqlite` | hadith-translation | fawazahmed0/hadith-api | 5.0 MB | download |
+| `hadith-abudawud-tr.sqlite` | hadith-translation | fawazahmed0/hadith-api | 4.5 MB | download |
+| `hadith-abudawud-ur.sqlite` | hadith-translation | fawazahmed0/hadith-api | 5.8 MB | download |
 | `hadith-bukhari-ar.sqlite` | Sahih al-Bukhari (Arabic, grades) | hadith-api @ df57907 | 18.6 MB | download |
+| `hadith-bukhari-bn.sqlite` | hadith-translation | fawazahmed0/hadith-api | 20.0 MB | download |
+| `hadith-bukhari-en.sqlite` | hadith-translation | fawazahmed0/hadith-api | 6.4 MB | download |
+| `hadith-bukhari-fr.sqlite` | hadith-translation | fawazahmed0/hadith-api | 7.0 MB | download |
+| `hadith-bukhari-id.sqlite` | hadith-translation | fawazahmed0/hadith-api | 8.6 MB | download |
+| `hadith-bukhari-ru.sqlite` | hadith-translation | fawazahmed0/hadith-api | 10.4 MB | download |
+| `hadith-bukhari-ta.sqlite` | hadith-translation | fawazahmed0/hadith-api | 21.4 MB | download |
+| `hadith-bukhari-tr.sqlite` | hadith-translation | fawazahmed0/hadith-api | 14.7 MB | download |
+| `hadith-bukhari-ur.sqlite` | hadith-translation | fawazahmed0/hadith-api | 13.0 MB | download |
 | `hadith-ibnmajah-ar.sqlite` | Sunan Ibn Majah (Arabic, grades) | hadith-api @ df57907 | 8.9 MB | download |
+| `hadith-ibnmajah-bn.sqlite` | hadith-translation | fawazahmed0/hadith-api | 5.6 MB | download |
+| `hadith-ibnmajah-en.sqlite` | hadith-translation | fawazahmed0/hadith-api | 2.4 MB | download |
+| `hadith-ibnmajah-fr.sqlite` | hadith-translation | fawazahmed0/hadith-api | 2.5 MB | download |
+| `hadith-ibnmajah-id.sqlite` | hadith-translation | fawazahmed0/hadith-api | 3.8 MB | download |
+| `hadith-ibnmajah-tr.sqlite` | hadith-translation | fawazahmed0/hadith-api | 5.4 MB | download |
+| `hadith-ibnmajah-ur.sqlite` | hadith-translation | fawazahmed0/hadith-api | 3.8 MB | download |
 | `hadith-muslim-ar.sqlite` | Sahih Muslim (Arabic, grades) | hadith-api @ df57907 | 16.2 MB | download |
+| `hadith-muslim-bn.sqlite` | hadith-translation | fawazahmed0/hadith-api | 14.5 MB | download |
+| `hadith-muslim-en.sqlite` | hadith-translation | fawazahmed0/hadith-api | 5.1 MB | download |
+| `hadith-muslim-fr.sqlite` | hadith-translation | fawazahmed0/hadith-api | 5.1 MB | download |
+| `hadith-muslim-id.sqlite` | hadith-translation | fawazahmed0/hadith-api | 7.4 MB | download |
+| `hadith-muslim-ru.sqlite` | hadith-translation | fawazahmed0/hadith-api | 3.0 MB | download |
+| `hadith-muslim-ta.sqlite` | hadith-translation | fawazahmed0/hadith-api | 8.5 MB | download |
+| `hadith-muslim-tr.sqlite` | hadith-translation | fawazahmed0/hadith-api | 9.2 MB | download |
+| `hadith-muslim-ur.sqlite` | hadith-translation | fawazahmed0/hadith-api | 9.6 MB | download |
 | `hadith-nasai-ar.sqlite` | Sunan an-Nasa'i (Arabic, grades) | hadith-api @ df57907 | 11.9 MB | download |
+| `hadith-nasai-bn.sqlite` | hadith-translation | fawazahmed0/hadith-api | 8.6 MB | download |
+| `hadith-nasai-en.sqlite` | hadith-translation | fawazahmed0/hadith-api | 3.3 MB | download |
+| `hadith-nasai-fr.sqlite` | hadith-translation | fawazahmed0/hadith-api | 3.5 MB | download |
+| `hadith-nasai-id.sqlite` | hadith-translation | fawazahmed0/hadith-api | 5.0 MB | download |
+| `hadith-nasai-tr.sqlite` | hadith-translation | fawazahmed0/hadith-api | 0.5 MB | download |
+| `hadith-nasai-ur.sqlite` | hadith-translation | fawazahmed0/hadith-api | 4.0 MB | download |
 | `hadith-tirmidhi-ar.sqlite` | Jami' at-Tirmidhi (Arabic, grades) | hadith-api @ df57907 | 12.9 MB | download |
+| `hadith-tirmidhi-bn.sqlite` | hadith-translation | fawazahmed0/hadith-api | 10.5 MB | download |
+| `hadith-tirmidhi-en.sqlite` | hadith-translation | fawazahmed0/hadith-api | 2.5 MB | download |
+| `hadith-tirmidhi-id.sqlite` | hadith-translation | fawazahmed0/hadith-api | 5.0 MB | download |
+| `hadith-tirmidhi-tr.sqlite` | hadith-translation | fawazahmed0/hadith-api | 4.1 MB | download |
+| `hadith-tirmidhi-ur.sqlite` | hadith-translation | fawazahmed0/hadith-api | 6.3 MB | download |
 | `quran.sqlite` | Quran Arabic (Uthmani, Simple), metadata, search index | Tanzil text v1.1, metadata v1.0 | 4.5 MB | yes |
+| `reading-lists.json` | Daily-hadith pool: undefined HadeethEnc ids, not yet reviewed | built from HadeethEnc packs + `daily-hadith-allowlist.json` | 0.0 MB | yes |
 | `tr-az-azeri_musayev.sqlite` | Ali Khan Musayev (az) | QuranEnc `azeri_musayev` v1.0.4-xml.1 | 1.7 MB | download |
 | `tr-bs-bosnian_rwwad.sqlite` | Rowwad Translation Centre (bs) | QuranEnc `bosnian_rwwad` v2.0.4-xml.1 | 1.5 MB | download |
 | `tr-de-german_bubenheim.sqlite` | Frank Bubenheim (de) | QuranEnc `german_bubenheim` v1.1.5-xml.1 | 1.6 MB | download |
