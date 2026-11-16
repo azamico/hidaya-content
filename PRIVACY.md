@@ -1,8 +1,8 @@
 # Hidaya privacy policy
 
-_Last updated: 15 November 2026_
+_Last updated: 16 November 2026_
 
-Hidaya is made by Azam Haq. This policy covers the Hidaya apps for iPhone and Android.
+Hidaya is made by Infiniventure LLC. This policy covers the Hidaya apps for iPhone and Android.
 
 ## The short version
 
@@ -31,8 +31,8 @@ app stays on your phone.
 
 ## Purchases
 
-The free trial is counted on your phone. Purchases (the yearly subscription and the lifetime unlock) are handled
-entirely by the App Store or Google Play under your Apple or Google account. Hidaya never sees your payment details and
+The free trial is counted on your phone. Purchases of Hidaya Premium (the monthly and yearly subscriptions and the
+lifetime purchase) are handled entirely by the App Store or Google Play under your Apple or Google account. Hidaya never sees your payment details and
 has no server.
 
 ## Permissions
@@ -45,7 +45,6 @@ wallpaper (the daily lock screen, Android).
 
 Hidaya is suitable for all ages and collects no information from anyone, including children.
 
-## Changes and contact
+## Changes
 
-If this policy changes, the new version will be published here with a new date. Questions: open an issue at
-https://github.com/azamico/hidaya-content/issues.
+If this policy changes, the new version will be published here with a new date.
